@@ -1,0 +1,103 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;  
+    border-top: 1px solid rgb(18, 18, 54);
+   
+   
+}
+
+.subscribe,.f-shop,.info,.legal{
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+}
+
+/*fotter logo and copyright*/
+
+.f-logo{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid rgb(20, 20, 62);
+    background-color: rgba(224, 243, 244, 0.737);
+}
+
+.f-sec-logo{
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.f-nv{
+    width: 160px;
+    height: 115px;
+   
+
+}
+
+@media (max-width: 400px){
+    .f-nv{
+        margin-top: 22px;
+    }
+}
+
+.copy{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+@media (max-width: 400px){
+    .f-logo{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .copy{
+        display: flex;
+        flex-direction: row;
+    }
+
+    
+    
+}
+
+.f-logos-i{
+display: flex;
+align-items: center;
+margin-right: 30px;
+
+}
+
+.f-logos-i-1{
+    display: none;
+}
+@media (max-width: 700px){
+    .f-logos-i{
+       
+        display: none;
+    }
+    .f-logos-i-1{
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgba(224, 243, 244, 0.737);
+    }
+}
+
+.f-l,.f-2,.f-3{
+    width: 34px;
+    cursor: pointer;
+    
+}
+
+.f-2{
+    height: 26px;
+    width: 46px;
+}
+
+.f-3{
+    height: 32px;
+}
